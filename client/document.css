@@ -1,0 +1,189 @@
+* {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+body {
+    display: flex;
+    background: url(https://images.unsplash.com/photo-1452423668729-43a98052d3ee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHRyYXZlbCUyMGRpYXJ5fGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+}
+
+h2 {
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    color: #110803;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#create-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 40vw;
+    height: 95vh;
+    border: 2px solid black;
+    background-color: #E3CBB0;
+    border-radius: 15px;
+    padding: 5px;
+    padding-top: 0px;
+    margin-left: 4rem;
+    margin-top: 1rem;
+    margin-right: 7rem;
+}
+
+section {
+    margin-left: 60px;
+}
+
+label {
+    font-size: 1rem;
+    color: #110803;
+}
+
+input {
+    padding: 0rem;
+    margin: 0rem;
+    height: 4vh;
+    width: 95%;
+}
+
+textarea {
+    padding: 0rem;
+    margin: 0rem;
+    height: 4vh;
+    width: 95%; 
+    resize: vertical;
+    max-height: 15vh;
+}
+
+button {
+    background-color: #505907;
+    font-size: 1rem;
+    height: 45px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#past-trips-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    width: 30vw;
+    height: 95vh;
+    border: 2px solid black;
+    background-color: #110803;
+    border-radius: 15px;
+    padding: 0rem;
+    padding-top: 0px;
+    margin-left: 0rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+}
+#delete-past-trip-btn {
+    background-color: #505907;
+    font-size: 1rem;
+    height: 40px;
+    width: 130px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#delete-past-trip-btn:hover {
+    cursor: pointer;
+}
+
+.new-trip {
+    display: flex;
+    flex-direction: row;
+    gap: 0px 15px;
+    align-items: center;
+}
+
+#past-trips {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    width: 100%;
+}
+#past-trips::-webkit-scrollbar {
+    width: 7px;
+}
+#past-trips::-webkit-scrollbar-thumb { /* Foreground */
+    background: #505907;
+}
+#past-trips::-webkit-scrollbar-track { /* Background */
+    background: #110803;
+}
+#past-trips::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+#past-trips:hover {
+    cursor: pointer;
+}
+
+h1 {
+    display: flex;
+    font-size: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: #E3CBB0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 0rem;
+    flex-direction: column;
+}
+
+div {
+    font-size: 2rem;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0rem;
+    margin-left: 3rem;
+    margin-top: 1rem;
+    background-color: #505907;
+    border-radius: 10px;
+    height: 8vh;
+    width: 8vw;
+}
+
+h4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #110803;
+    font-size: 1.2rem;
+}
+
+h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

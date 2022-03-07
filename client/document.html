@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meg's Capstone</title>
+        <link rel="stylesheet" href="document.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <main>
+            <form id="create-form">
+                <h2>Document Your Trip:</h2>
+                <label>Trip Dates:</label>
+                <input type="text" id="trip-date"/>
+                <label>City Name:</label>
+                <input type="text" id="city-name"/>
+                <label>Favorite Restaurant:</label>
+                <input type="text" id="fave-restaurant"/>
+                <label>Favorite Dessert Place:</label>
+                <input type="text" id="fave-dessert"/>
+                <label>Best Photo-op Locations:</label>
+                <input type="text" id="photos"/>
+                <label>Favorite Tourist Spot:</label>
+                <input type="text" id="fave-tourist"/>
+                <label>Favorite Non-Tourist Spots:</label>
+                <input type="text" id="fave-non-tourist"/>
+                <label>Trip Highlights:</label>
+                <input type="text" id="highlights"/>
+                <label>Travel Buddies:</label>
+                <input type="text" id="buddies"/>
+                <label>Sites You Want to See Next Time:</label>
+                <input type="text" id="sites-next-time"/>
+                <label>Things You Wish You'd Known/Brought:</label>
+                <input type="text" id="hindsight"/>
+                <label for="more-details">List any other details you'd like to remember about this city:</label>
+                <textarea id="more-details"></textarea>
+                <button>Submit Trip Details</button>
+            </form>
+            <div id="past-trips-container">
+                <h1>Your Past Trips:</h1> 
+                <div id="past-trips"></div>
+            </div>
+            <div id="menu-container">
+                <h4 id="home-button">Home</h4>
+                <h4 id="planner-button">Plan Future Trips</h4>
+            </div>
+        </main>
+
+
+        <script src="/scripts/axios.min.js"></script>
+        <script src="/document.js"></script>     
+    </body>
+</html>

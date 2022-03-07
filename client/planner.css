@@ -1,0 +1,115 @@
+/* planning page */
+* {
+    box-sizing: border-box;
+    color: #E3CBB0;
+    font-family: 'Nanum Brush Script', cursive;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: url(https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8N3x8dHJhdmVsJTIwbWFwfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60);
+    font-size: 25px;
+}
+
+main {
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-left: 20rem;
+    border-radius: 15px;
+    width: 40vw;
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: #42342C;;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+main::-webkit-scrollbar {
+    width: 7px;
+}
+main::-webkit-scrollbar-thumb { /* Foreground */
+    background: #F3BAB3;
+}
+main::-webkit-scrollbar-track { /* Background */
+    background: #42342C;
+}
+main::-webkit-scrollbar-corner {
+    background-color: transparent;
+}
+
+input {
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    color: black;
+    font-size: 23px;
+}
+
+ul {
+    font-size: 40px;
+    width: 100%;
+}
+
+li {
+    cursor: pointer;
+}
+  
+.checked {
+    color: #110803;
+    text-decoration: line-through;
+}
+  
+.hide {
+    visibility: hidden;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 20px;
+    background: #F3BAB3;
+    color: #42342C;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 0rem;
+    margin-left: 10rem;
+    margin-top: 1rem;
+    margin-bottom: 54rem;
+    background-color: #F3BAB3;
+    border-radius: 10px;
+    height: 7vh;
+    width: 9vw;
+}
+
+h4 {
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+    color: #110803;
+    font-size: 1.5rem;
+}
+
+h4:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}

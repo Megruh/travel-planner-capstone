@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meg's Capstone</title>
+    <link rel="stylesheet" href="planner.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <main>
+      <h1>My Future Trips</h1>
+      <section>
+        <form>
+          <input placeholder="Add City" />
+          <button>Add</button>
+        </form>
+      </section>
+      <ul id="trips-list"></ul>
+      <aside id="message"></aside>
+    </main>
+    <div id="menu-container">
+      <h4 id="home-button">Home</h4>
+      <h4 id="document-button">Document a Trip</h4>
+    </div>
+    <script src="/scripts/axios.min.js"></script>
+    <script src="./planner.js"></script>
+  </body>
+</html>
